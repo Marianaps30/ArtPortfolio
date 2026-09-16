@@ -14,6 +14,7 @@ const artwork = [
   { title: 'Parrots(progress)', medium: 'Colored pencil', filter: 'Color', status: 'Progress', detail: 'Colored pencil, 2024', image: 'images/colored-pencil-03.jpg', alt: 'In progress Colored pencil Parrot Drawing' },
   { title: 'Paper Sculpture', medium: 'Paper sculpture', filter: 'Sculpture', status: 'Finished', detail: '3D paper sculpture, 2025', image: 'images/paper-sculpture-01-new.jpg', alt: 'Paper sculpture placeholder' },
   { title: 'MoonMallow 02', medium: 'Plushie', filter: 'Textile', status: 'Finished', detail: 'Pattern + sewn plushie, 2026', image: 'images/MoonMallow02.jpg', alt: 'Handmade plushie angle 2', size: 'compact', arrangement: 'overlap-up' },
+  { title: 'Texture Vase', medium: 'Clay', filter: 'Sculpture', status: 'Finished', detail: 'Clay vase with glaze, 2025', image: 'images/texture-vase.jpg', alt: 'Textured clay vase sculpture', size: 'compact' },
   { title: 'The structure', medium: 'Watercolor', filter: 'Color', status: 'Finished', detail: 'Watercolor, 2025', image: 'images/watercolor-01.jpg', alt: 'Watercolor painting skeloton', size: 'compact' },
   { title: 'Face shape studies', medium: 'Alcohol marker', filter: 'Color', status: 'Finished', detail: 'Alcohol marker, 2026', image: 'images/alcohol-marker-01-new.jpg', alt: 'Acrylic marker artwork placeholder' },
   { title: 'Missing Piece of the Heart', medium: 'Colored pencil', filter: 'Color', status: 'Finished', detail: 'Colored pencil, 2025', image: 'images/colored-pencil-04-new.jpg', alt: 'Colored pencil work in progress placeholder' },
