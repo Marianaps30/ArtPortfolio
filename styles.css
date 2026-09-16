@@ -193,10 +193,10 @@ body { background: var(--paper); }
 .hero-board { display: block; padding: 34px; transform: none; }
 .hero-board .board-sticker { display: none; }
 .hero-art, .hero-art-main, .hero-art-small { background: transparent; box-shadow: none; height: auto; inset: auto; padding: 0; position: relative; right: auto; top: auto; transform: none; width: auto; }
-.hero-art-main { aspect-ratio: 2 / 3; height: 86%; left: 8%; margin-left: 0; overflow: hidden; position: absolute; top: 6%; width: 62%; }
+.hero-art-main { aspect-ratio: 2 / 3; height: 90%; left: 6%; margin-left: 0; overflow: hidden; position: absolute; top: 4%; width: 72%; }
 .hero-art-small { bottom: 13%; position: absolute; right: 6%; transform: rotate(3deg); width: 35%; z-index: 3; }
 .hero-art img { height: auto; object-fit: contain; width: 100%; }
-.hero-art-main img { height: 60%; margin: 20% auto; object-fit: contain; object-position: center; transform: rotate(90deg); width: 60%; }
+.hero-art-main img { height: 74%; margin: 13% auto; object-fit: contain; object-position: center; transform: rotate(90deg); width: 74%; }
 .hero-art span { background: rgba(24,27,43,.78); bottom: 0; font-size: 9px; left: 0; padding: 8px 10px; position: absolute; right: 0; }
 .hero-art-main:after { display: none; }
 .hero-art-small:before { border: 1px solid var(--accent); border-radius: 50%; content: ''; height: 22px; left: -13px; position: absolute; top: 18px; width: 22px; z-index: 2; }
@@ -341,7 +341,7 @@ body { background: var(--paper); }
   .flourish { font-size: 21px; }
   .flourish-hero { font-size: 29px; }
   .hero-board { min-height: 410px; padding: 25px; transform: none; }
-  .hero-art-main { height: 84%; left: 6%; margin-left: 0; top: 8%; width: 70%; }
+  .hero-art-main { height: 88%; left: 4%; margin-left: 0; top: 6%; width: 78%; }
   .hero-art-small { bottom: 13%; right: 3%; width: 42%; }
   .board-caption { bottom: 15px; left: 25px; }
   .hero-orbit { height: 100vw; right: -38vw; top: 30vw; width: 100vw; }
