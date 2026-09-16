@@ -3,21 +3,20 @@ const artwork = [
   { title: 'Natures Embrace', medium: 'Sculpture', filter: 'Sculpture', status: 'Finished', detail: 'Mixed materials, 2025', image: 'images/sculpture-01.jpg', alt: 'Mixed-media sculpture of a person sinking into nature(Symbol of connection)', size: 'compact' },
   { title: 'Turtle Planter Planning', medium: 'Colored pencil', filter: 'Color', status: 'Finished', detail: 'Colored pencil, 2025', image: 'images/colored-pencil-01.jpg', alt: 'Colored pencil planning for turtle plant holder in three angles' },
   { title: 'Guardian 02', medium: 'Digital drawing', filter: 'Game', status: 'Game world', detail: 'Digital drawing, 2025', image: 'images/drawing-02.jpg', alt: 'Digital character concept Guardian 3 angles', size: 'compact-tall', arrangement: 'overlap-left' },
-  { title: 'Turtle planter', medium: 'Sculpture', filter: 'Sculpture', status: 'Finished', detail: 'Sculpture, 2024', image: 'images/sculpture-02.jpg', alt: 'Finished sculpture placeholder' },
+  { title: 'Turtle planter', medium: 'Sculpture', filter: 'Sculpture', status: 'Finished', detail: 'Sculpture, 2024', image: 'images/TurtlePot.JPG', alt: 'Finished sculpture placeholder' },
   { title: 'The Lion', medium: 'Sculpture', filter: 'Sculpture', status: 'Progress', detail: 'Sculpture, 2025', image: 'images/sculpture-03.jpg', alt: 'Lion sculpture angle 1', size: 'compact' },
-  { title: 'Wise One', medium: 'Scratchboard', filter: 'Drawing', status: 'Finished', detail: 'Scratchboard, 2024', image: 'images/scratchboard-01.jpg', alt: 'Scratchboard drawing of an owl showing mark making skills', size: 'compact' },
+  { title: 'Wise One', medium: 'Scratchboard', filter: 'Drawing', status: 'Finished', detail: 'Scratchboard, 2024', image: 'images/scratchboard-01-new.jpg', alt: 'Scratchboard drawing of an owl showing mark making skills', size: 'compact' },
   { title: 'Elora', medium: 'Digital drawing', filter: 'Game', status: 'Game world', detail: 'Digital drawing, 2025', image: 'images/drawing-03.jpg', alt: 'Digital character concept Elora', size: 'compact-tall', arrangement: 'overlap-right' },
   { title: 'Sharks', medium: 'Digital drawing', filter: 'Drawing', status: 'Finished', detail: 'Digital drawing, 2025', image: 'images/drawing-04.jpg', alt: 'Digital drawing of sharks' },
   { title: 'Parrots', medium: 'Colored pencil', filter: 'Color', status: 'Finished', detail: 'Colored pencil, 2024', image: 'images/colored-pencil-02.jpg', alt: 'Finished Colored pencil Parrot Drawing' },
   { title: 'The Lion 02', medium: 'Sculpture', filter: 'Sculpture', status: 'Progress', detail: 'Sculpture in progress, 2025', image: 'images/sculpture-04.jpg', alt: 'Lion sculpture angle 2', size: 'compact' },
-  { title: 'MoonMallow', medium: 'Plushie', filter: 'Textile', status: 'Finished', detail: 'Pattern + sewn plushie, 2026', image: 'images/plushie-01.jpg', alt: 'Handmade plushie angle 1', size: 'compact' },
+  { title: 'MoonMallow', medium: 'Plushie', filter: 'Textile', status: 'Finished', detail: 'Pattern + sewn plushie, 2026', image: 'images/MoonMallow05.jpg', alt: 'Handmade plushie angle 1', size: 'compact' },
   { title: 'Parrots(progress)', medium: 'Colored pencil', filter: 'Color', status: 'Progress', detail: 'Colored pencil, 2024', image: 'images/colored-pencil-03.jpg', alt: 'In progress Colored pencil Parrot Drawing' },
-  { title: 'Paper Sculpture', medium: 'Paper sculpture', filter: 'Sculpture', status: 'Finished', detail: '3D paper sculpture, 2025', image: 'images/paper-sculpture-01.jpg', alt: 'Paper sculpture placeholder' },
-  { title: 'MoonMallow 02', medium: 'Plushie', filter: 'Textile', status: 'Finished', detail: 'Pattern + sewn plushie, 2026', image: 'images/plushie-02.jpg', alt: 'Handmade plushie angle 2', size: 'compact', arrangement: 'overlap-up' },
-  { title: 'A broken image', medium: 'Pen', filter: 'Drawing', status: 'Finished', detail: 'Pen on paper, 2025', image: 'images/pen-01.jpg', alt: 'Pen mirror drawing', size: 'compact' },
+  { title: 'Paper Sculpture', medium: 'Paper sculpture', filter: 'Sculpture', status: 'Finished', detail: '3D paper sculpture, 2025', image: 'images/paper-sculpture-01-new.jpg', alt: 'Paper sculpture placeholder' },
+  { title: 'MoonMallow 02', medium: 'Plushie', filter: 'Textile', status: 'Finished', detail: 'Pattern + sewn plushie, 2026', image: 'images/MoonMallow02.jpg', alt: 'Handmade plushie angle 2', size: 'compact', arrangement: 'overlap-up' },
   { title: 'The structure', medium: 'Watercolor', filter: 'Color', status: 'Finished', detail: 'Watercolor, 2025', image: 'images/watercolor-01.jpg', alt: 'Watercolor painting skeloton', size: 'compact' },
-  { title: 'Face shape studies', medium: 'Alcohol marker', filter: 'Color', status: 'Finished', detail: 'Alcohol marker, 2026', image: 'images/alcohol-marker-01.jpg', alt: 'Acrylic marker artwork placeholder' },
-  { title: 'Missing Piece of the Heart', medium: 'Colored pencil', filter: 'Color', status: 'Finished', detail: 'Colored pencil, 2025', image: 'images/colored-pencil-04.jpg', alt: 'Colored pencil work in progress placeholder' },
+  { title: 'Face shape studies', medium: 'Alcohol marker', filter: 'Color', status: 'Finished', detail: 'Alcohol marker, 2026', image: 'images/alcohol-marker-01-new.jpg', alt: 'Acrylic marker artwork placeholder' },
+  { title: 'Missing Piece of the Heart', medium: 'Colored pencil', filter: 'Color', status: 'Finished', detail: 'Colored pencil, 2025', image: 'images/colored-pencil-04-new.jpg', alt: 'Colored pencil work in progress placeholder' },
   { title: 'Character models', medium: '3D model', filter: 'Game', status: 'Game world', detail: 'Unreal Engine study, 2025', image: 'images/3d-model-01.jpg', alt: '3D character models' }
 ];
 
@@ -42,6 +41,15 @@ const count = document.querySelector('.work-count');
 const buttons = document.querySelectorAll('.filter-button');
 const mechanismGrid = document.querySelector('#mechanism-grid');
 const templateButton = document.querySelector('#template-button');
+const modelViewer = document.querySelector('model-viewer');
+const modelError = document.querySelector('.model-error');
+
+modelViewer.addEventListener('error', () => {
+  modelError.hidden = false;
+});
+modelViewer.addEventListener('load', () => {
+  modelError.hidden = true;
+});
 
 templateButton.addEventListener('click', async () => {
   templateButton.disabled = true;

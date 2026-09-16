@@ -247,6 +247,11 @@ body { background: var(--paper); }
 .model-fallback strong { color: var(--accent); font-size: 18px; font-weight: 500; }
 .model-fallback span { color: #ffd0ba; font-size: 12px; line-height: 1.5; }
 .model-fallback code { color: #f7eee3; font-family: var(--sans); }
+.model-error { align-items: center; color: #f7eee3; display: flex; flex-direction: column; gap: 10px; height: 100%; justify-content: center; padding: 60px 20%; position: absolute; text-align: center; inset: 0; }
+.model-error[hidden] { display: none; }
+.model-error strong { color: var(--accent); font-size: 18px; font-weight: 500; }
+.model-error span { color: #ffd0ba; font-size: 12px; line-height: 1.5; }
+.model-error code { color: #f7eee3; font-family: var(--sans); }
 .model-caption { bottom: 16px; color: #ffd0ba; display: flex; font-size: 9px; justify-content: space-between; left: 16px; letter-spacing: .1em; pointer-events: none; position: absolute; right: 16px; text-transform: uppercase; z-index: 1; }
 .map-line { border-top: 1px solid var(--accent); display: block; position: absolute; top: 51%; width: 27%; }
 .map-line-one { left: 21%; }

@@ -136,10 +136,14 @@
           interaction-prompt="auto"
           loading="eager">
           <div class="model-fallback" slot="poster">
-            <strong>Add your Blender export</strong>
-            <span>Export a .glb file as <code>images/world-model.glb</code> to view it here.</span>
+            <strong>Loading 3D study...</strong>
+            <span>Give the model a moment to load.</span>
           </div>
         </model-viewer>
+        <div class="model-error" aria-live="polite" hidden>
+          <strong>3D study unavailable</strong>
+          <span>Preview this site through <code>python3 -m http.server 4173</code>, then open <code>http://localhost:4173</code>.</span>
+        </div>
         <div class="model-caption">
           <span>drag to orbit / scroll to zoom</span>
           <span>blender study / 2025</span>
