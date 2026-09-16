@@ -21,7 +21,7 @@ const artwork = [
   { title: 'Character models', medium: '3D model', filter: 'Game', status: 'Game world', detail: 'Unreal Engine study, 2025', image: 'images/3d-model-01.jpg', alt: '3D character models' }
 ];
 
-const archiveOrder = ['Turtle planter', 'The Lion', 'The Lion 02', 'Paper Sculpture', 'Character models', 'Parrots', 'Parrots(progress)', 'Face shape studies', 'Sharks', 'Wise One', 'Natures Embrace', 'The structure', 'Missing Piece of the Heart', 'Turtle Planter Planning', 'A broken image', 'MoonMallow 02', 'MoonMallow', 'Guardian', 'Guardian 02', 'Elora'];
+const archiveOrder = ['Turtle planter', 'The Lion', 'The Lion 02', 'Paper Sculpture', 'Texture Vase', 'Character models', 'Parrots', 'Parrots(progress)', 'Face shape studies', 'Sharks', 'Wise One', 'Natures Embrace', 'The structure', 'Missing Piece of the Heart', 'Turtle Planter Planning', 'A broken image', 'MoonMallow 02', 'MoonMallow', 'Guardian', 'Guardian 02', 'Elora'];
 artwork.sort((first, second) => archiveOrder.indexOf(first.title) - archiveOrder.indexOf(second.title));
 
 const mechanisms = [
