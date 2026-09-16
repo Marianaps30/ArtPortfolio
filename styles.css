@@ -196,7 +196,7 @@ body { background: var(--paper); }
 .hero-art-main { aspect-ratio: 2 / 3; height: 98%; left: 2%; margin-left: 0; overflow: hidden; position: absolute; top: 1%; width: 94%; }
 .hero-art-small { bottom: 13%; position: absolute; right: 6%; transform: rotate(3deg); width: 35%; z-index: 3; }
 .hero-art img { height: auto; object-fit: contain; width: 100%; }
-.hero-art-main img { height: 100%; margin: 0 auto; object-fit: cover; object-position: 58% center; transform: rotate(90deg) scale(1.35); width: 100%; }
+.hero-art-main img { height: 100%; margin: 0 auto; object-fit: contain; object-position: center; transform: rotate(90deg); width: 100%; }
 .hero-art span { background: rgba(24,27,43,.78); bottom: 0; font-size: 9px; left: 0; padding: 8px 10px; position: absolute; right: 0; }
 .hero-art-main span { bottom: 15%; left: 20%; right: auto; width: 60%; }
 .hero-art-main:after { display: none; }
