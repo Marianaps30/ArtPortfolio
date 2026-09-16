@@ -193,11 +193,12 @@ body { background: var(--paper); }
 .hero-board { display: block; padding: 34px; transform: none; }
 .hero-board .board-sticker { display: none; }
 .hero-art, .hero-art-main, .hero-art-small { background: transparent; box-shadow: none; height: auto; inset: auto; padding: 0; position: relative; right: auto; top: auto; transform: none; width: auto; }
-.hero-art-main { aspect-ratio: 2 / 3; height: 98%; left: 2%; margin-left: 0; overflow: hidden; position: absolute; top: 1%; width: 94%; }
+.hero-art-main { aspect-ratio: 2 / 3; height: 98%; left: 0; margin-left: 0; overflow: hidden; position: absolute; top: 1%; width: 94%; }
 .hero-art-small { bottom: 13%; position: absolute; right: 6%; transform: rotate(3deg); width: 35%; z-index: 3; }
 .hero-art img { height: auto; object-fit: contain; width: 100%; }
 .hero-art-main img { height: 100%; margin: 0 auto; object-fit: contain; object-position: center; transform: rotate(90deg); width: 100%; }
 .hero-art span { background: rgba(24,27,43,.78); bottom: 0; font-size: 9px; left: 0; padding: 8px 10px; position: absolute; right: 0; }
+.hero-art-main span { bottom: 15%; left: 20%; right: auto; width: 60%; }
 .hero-art-main:after { display: none; }
 .hero-art-small:before { border: 1px solid var(--accent); border-radius: 50%; content: ''; height: 22px; left: -13px; position: absolute; top: 18px; width: 22px; z-index: 2; }
 .hero-board:after { border-bottom: 1px solid rgba(32,40,81,.35); content: 'material study / 02'; font-size: 9px; letter-spacing: .14em; padding-bottom: 7px; position: absolute; right: 34px; text-transform: uppercase; top: 23px; }
@@ -341,7 +342,7 @@ body { background: var(--paper); }
   .flourish { font-size: 21px; }
   .flourish-hero { font-size: 29px; }
   .hero-board { min-height: 410px; padding: 25px; transform: none; }
-  .hero-art-main { height: 98%; left: 1%; margin-left: 0; top: 1%; width: 94%; }
+  .hero-art-main { height: 98%; left: 0; margin-left: 0; top: 1%; width: 94%; }
   .hero-art-small { bottom: 13%; right: 3%; width: 42%; }
   .board-caption { bottom: 15px; left: 25px; }
   .hero-orbit { height: 100vw; right: -38vw; top: 30vw; width: 100vw; }
